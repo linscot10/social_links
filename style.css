@@ -10,10 +10,11 @@ body {
 }
 
 .container {
+    margin-top: 60px;
     margin: auto;
     background-color: hsl(0, 0%, 12%);
     width: 300px;
-    height: 80%;
+    height: 450px;
     align-items: center;
     display: block;
     justify-content: center;
@@ -75,9 +76,10 @@ button:hover {
 
 
 @media (max-width:375px) {
-    h1{
+    h1 {
         font-size: 30px;
     }
+
     .container {
         margin: auto;
         background-color: hsl(0, 0%, 12%);
